@@ -1,2 +1,2 @@
 # kys
-Keep Yourself Safe!
+keep yourself safe!
