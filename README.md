@@ -1,2 +1,2 @@
-# kys
-keep yourself safe!
+# miku's mental health management
+popipo your worries away~
