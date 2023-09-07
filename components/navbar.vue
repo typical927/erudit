@@ -7,8 +7,7 @@
           <NuxtLink href="/" class="-m-1.5 p-1.5">
             <span class="sr-only">Your Company</span>
             <img class="h-11 w-auto"
-              src="https://static.wikia.nocookie.net/projectsekai/images/b/bc/Miku_25_%28icon%29.png/revision/latest?cb=20201030150810"
-              alt="miku" />
+              src="https://pbs.twimg.com/media/EcNh2IRUcAEgURc.png" alt="miku" />
           </NuxtLink>
         </div>
         <div class="flex lg:hidden">
