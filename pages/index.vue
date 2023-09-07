@@ -1,22 +1,21 @@
 <template>
   <div class="bg-white">
     <Navbar />
-
-    <div class="relative isolate px-6 pt-14 lg:px-8">
+    <div class="relative isolate px-6 pt-0 lg:px-8">
       <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
         <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#a3a6b2] to-[#6ef8fa] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)" />
       </div>
       <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
         <div class="hidden sm:mb-8 sm:flex sm:justify-center">
           <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-            To keep yourself safe. <NuxtLink href="/about-us" class="font-semibold text-red-700"><span class="absolute inset-0" aria-hidden="true" />More about us <span aria-hidden="true">&rarr;</span></NuxtLink>
+            Popipo your worries away! <NuxtLink href="/about-us" class="font-semibold text-teal-700"><span class="absolute inset-0" aria-hidden="true" />More about us <span aria-hidden="true">&rarr;</span></NuxtLink>
           </div>
         </div>
         <div class="text-center">
-          <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Introducing KYS</h1>
-          <p class="mt-6 text-lg text-center text-gray-600">According to the World Health Organisation, for each death by suicide, there are more than 20 suicide attempts. With your help, we can change this,</p>
+          <h1 class="text-4xl font-bold tracking-tight leading-loose text-teal-700 sm:text-5xl">Miku's Mental Health Management</h1>
+          <p class="mt-6 text-lg text-center text-grey-600">A website for your mental health.</p>
           <div class="mt-10 flex items-center justify-center gap-x-6">
-            <NuxtLink href="/chat" class="rounded-md bg-teal-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-teal-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</NuxtLink>
+            <NuxtLink href="/chat" class="rounded-md bg-teal-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-teal-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-600">Get chatting!</NuxtLink>
           </div>
         </div>
       </div>

@@ -22,7 +22,7 @@
           <div class="flex items-center justify-between">
             <NuxtLink href="#" class="-m-1.5 p-1.5">
               <span class="sr-only">See More</span>
-              <img class="h-8 w-auto" src="https://pbs.twimg.com/media/EcNh2IRUcAEgURc.png" alt="miku" />
+              <img class="h-11 w-auto" src="https://pbs.twimg.com/media/EcNh2IRUcAEgURc.png" alt="miku" />
             </NuxtLink>
             <button type="button" class="-m-2.5 rounded-md p-2.5 text-white" @click="mobileMenuOpen = false">
               <span class="sr-only">Close</span>

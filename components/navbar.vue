@@ -6,7 +6,7 @@
         <div class="flex lg:flex-1">
           <NuxtLink href="/" class="-m-1.5 p-1.5">
             <span class="sr-only">Your Company</span>
-            <img class="h-8 w-auto" src="https://static.wikia.nocookie.net/projectsekai/images/b/bc/Miku_25_%28icon%29.png/revision/latest?cb=20201030150810" alt="miku" />
+            <img class="h-11 w-auto" src="https://static.wikia.nocookie.net/projectsekai/images/b/bc/Miku_25_%28icon%29.png/revision/latest?cb=20201030150810" alt="miku" />
           </NuxtLink>
         </div>
         <div class="flex lg:hidden">
@@ -28,7 +28,7 @@
           <div class="flex items-center justify-between">
             <NuxtLink href="#" class="-m-1.5 p-1.5">
               <span class="sr-only">Your Company</span>
-              <img class="h-8 w-auto" src="https://pbs.twimg.com/media/EcNh2IRUcAEgURc.png" alt="miku" />
+              <img class="h-11 w-auto" src="https://pbs.twimg.com/media/EcNh2IRUcAEgURc.png" alt="miku" />
             </NuxtLink>
             <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700" @click="mobileMenuOpen = false">
               <span class="sr-only">Close menu</span>

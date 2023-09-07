@@ -3,14 +3,13 @@
    <link href="https://fonts.cdnfonts.com/css/black-han-sans" rel="stylesheet">
 
 <h2> Resources</h2>
+  <div class="aa">
   <div class="aaa">
-    <div class="aaasect">
-    <a href="general"><img class="miku" src="https://cdn.discordapp.com/attachments/1147480257029492746/1149278593592070206/image.png"></a>
-    <h3 class="left">General</h3>
-    </div>
-    <div class="aaasect"></div>
-    <a href="disorders"><img class="miku2" src="https://i.pinimg.com/564x/65/37/72/653772c1b8d690e5cce4273c922037bb.jpg"></a>
-    <h3 class="left">Disorders</h3>
+    <a href="general"><img class="miku" src="https://media.discordapp.net/attachments/1147480257029492746/1149334087962734602/cry.png"></a>
+  </div>
+  <div class="aaa">
+    <a href="disorders"><img class="miku2" src="https://media.discordapp.net/attachments/1147480257029492746/1149333838724608100/cry2.png"></a>
+  </div>
   </div>
 </template>
 
@@ -50,23 +49,30 @@ p, li {
 }
 
 ul {
-  list-style-type: disc;
+  list-style-type: "\273C";
+  padding-left: 8px;
 }
 
-.aaa img {
-  width: 300px;
-  margin: 10px;
+ul, ol {
+  padding-left: 10px;
+
+}
+
+.aa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .aaa {
   display: flex;
   align-items: center;
-  margin: auto;
+  justify-content: center;
 }
 
-.aaasect {
-  width: 450px;
-  align-items: center;
+.aaa img {
+  width: 300px;
+  margin: 20px;
 }
 
 .left {

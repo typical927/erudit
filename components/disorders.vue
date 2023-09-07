@@ -41,10 +41,10 @@
     </div>
     <div class="rsc">
       <h3>Antisocial personality disorder (ASPD)</h3> 
-      <p> People with ASPD show a lack of respect toward others and don't follow socially accepted norms or rules. People with 
-        ASPD may break the law or cause physical or emotional harm to others around them. They may refuse to take responsibility
-         for their behaviors and/or display disregard for the negative consequences of their actions. Genetics and childhood experiences 
-         both play big roles in the development of ASPD. A person with ASPD is likely to have grown up in difficult family circumstances, which would
+      <p> People with ASPD show a <strong>lack of respect</strong> toward others and <strong>don't follow socially accepted norms</strong> or rules. People with 
+        ASPD may break the law or <strong>cause physical or emotional harm</strong> to others around them. They may <strong>refuse to take responsibility
+         for their behaviors</strong> and/or display disregard for the negative consequences of their actions. <strong>Genetics and childhood experiences</strong> 
+         both play big roles in the development of ASPD. A person with ASPD is likely to have grown up in <strong>difficult family circumstances</strong>, which would
          cause the development of ASPD following that.
          <br> External resources: <a href="https://www.mayoclinic.org/diseases-conditions/antisocial-personality-disorder/diagnosis-treatment/drc-20353934">Mayo Clinic</a></p>
     </div>
@@ -91,6 +91,9 @@
         in Singapore also provide specialised learning for children with ADHD.<br>External resources: 
       <a href="http://brain.com.sg/who-we-can-help/adhd-attention-issues/">Singapore Brain Development Center</a>, 
       <a href="https://www.spark.org.sg/about-us">SPARK</a></p>
+    </div>
+    <div class="mt-10 flex items-center justify-center gap-x-6">
+            <NuxtLink href="/resources" class="rounded-md bg-teal-500 px-3.5 py-2.5 text-lg font-semibold text-white shadow-sm hover:bg-teal-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-600">Go back to Resources</NuxtLink>
     </div>
 </template>
 

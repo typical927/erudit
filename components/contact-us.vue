@@ -14,6 +14,6 @@
 
 <style>
   .contact {
-    margin: 20px 100px 20px;
+    margin: 20px 250px 20px;
   }
 </style>
