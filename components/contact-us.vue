@@ -13,7 +13,7 @@
 </script>
 
 <style>
-  .contact {
-    margin: 20px 250px 20px;
-  }
+.contact {
+  margin: 20px 250px 20px;
+}
 </style>

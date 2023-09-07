@@ -6,7 +6,7 @@
     <Resources />
   </div>
   <div class="mt-20">
-    <Footer /> 
+    <Footer />
   </div>
 </template>
 
@@ -16,6 +16,4 @@
 
 
 
-<style>
-
-</style>
+<style></style>

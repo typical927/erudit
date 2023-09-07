@@ -1,14 +1,14 @@
 <template>
   <div>
     <div>
-    <Navbar />
-  </div>
-  <div class="mt-20">
-    <Disorders />
-  </div>
-  <div class="mt-20">
-    <Footer />
-  </div>
+      <Navbar />
+    </div>
+    <div class="mt-20">
+      <Disorders />
+    </div>
+    <div class="mt-20">
+      <Footer />
+    </div>
   </div>
 </template>
 
@@ -18,6 +18,4 @@
 
 
 
-<style>
-
-</style>
+<style></style>

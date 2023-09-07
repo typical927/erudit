@@ -1,15 +1,17 @@
 <template>
   <link href="https://fonts.cdnfonts.com/css/inter" rel="stylesheet">
-   <link href="https://fonts.cdnfonts.com/css/black-han-sans" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/black-han-sans" rel="stylesheet">
 
-<h2> Resources</h2>
+  <h2> Resources</h2>
   <div class="aa">
-  <div class="aaa">
-    <a href="general"><img class="miku" src="https://media.discordapp.net/attachments/1147480257029492746/1149334087962734602/cry.png"></a>
-  </div>
-  <div class="aaa">
-    <a href="disorders"><img class="miku2" src="https://media.discordapp.net/attachments/1147480257029492746/1149333838724608100/cry2.png"></a>
-  </div>
+    <div class="aaa">
+      <a href="general"><img class="miku"
+          src="https://media.discordapp.net/attachments/1147480257029492746/1149334087962734602/cry.png"></a>
+    </div>
+    <div class="aaa">
+      <a href="disorders"><img class="miku2"
+          src="https://media.discordapp.net/attachments/1147480257029492746/1149333838724608100/cry2.png"></a>
+    </div>
   </div>
 </template>
 
@@ -29,7 +31,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Inter', sans-serif;  
+  font-family: 'Inter', sans-serif;
   font-size: 32px;
   font-weight: bold;
   text-decoration: underline;
@@ -37,15 +39,16 @@ h3 {
   margin-bottom: 15px;
 }
 
-p, li {
-  font-family: 'Inter', sans-serif;  
+p,
+li {
+  font-family: 'Inter', sans-serif;
   font-size: 18px;
   text-align: left;
 }
 
 .rsc a {
-    color: #47c8c0;
-    text-decoration: underline;
+  color: #47c8c0;
+  text-decoration: underline;
 }
 
 ul {
@@ -53,7 +56,8 @@ ul {
   padding-left: 8px;
 }
 
-ul, ol {
+ul,
+ol {
   padding-left: 10px;
 
 }
@@ -78,6 +82,4 @@ ul, ol {
 .left {
   text-align: left;
   margin-top: 0px;
-}
-
-</style>
+}</style>
