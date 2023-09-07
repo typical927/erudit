@@ -1,6 +1,6 @@
-<template>
+  <template>
   <div>
-    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+    <link href="https://fonts.cdnfonts.com/css/black-han-sans" rel="stylesheet">
     <header class="absolute inset-x-0 top-0 z-50">
       <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div class="flex lg:flex-1">
@@ -16,10 +16,10 @@
           </button>
         </div>
         <div class="hidden lg:flex lg:gap-x-12">
-          <NuxtLink v-for="item in navigation" :key="item.name" :href="item.href" class="text-sm font-semibold leading-6 text-teal-600">{{ item.name }}</NuxtLink>
+          <NuxtLink v-for="item in navigation" :key="item.name" :href="item.href" class="text-lg font-semibold leading-6 text-gray-700">{{ item.name }}</NuxtLink>
         </div>
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-          <NuxtLink href="#" class="text-sm font-semibold leading-6 text-gray-900">Log in <span aria-hidden="true">&rarr;</span></NuxtLink>
+          <NuxtLink href="#" class="text-sm font-semibold leading-6 text-gray-900"> <span aria-hidden="true"></span></NuxtLink>
         </div>
       </nav>
       <Dialog as="div" class="lg:hidden" @close="mobileMenuOpen = false" :open="mobileMenuOpen">
@@ -41,7 +41,7 @@
                 <NuxtLink v-for="item in navigation" :key="item.name" :href="item.href" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{ item.name }}</NuxtLink>
               </div>
               <div class="py-6">
-                <NuxtLink href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Log in</NuxtLink>
+                <NuxtLink href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"> </NuxtLink>
               </div>
             </div>
           </div>
